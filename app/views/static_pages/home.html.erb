@@ -1,4 +1,14 @@
-<h1>Sample App</h1>
-<p>
-ここは<a href="https://railstutorial.jp/">Ruby on Rails チュートリアル</a>のサンプルページです。
-</p>
+<div class="center jumbotron">
+  <h1>Sample Appへようこそ</h1>
+  <h2>
+    ここはRailsチュートリアルのサンプルアプリのページです。
+  </h2>
+
+  <%= link_to "Sign up now!", "#", class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org' %>
+
+<%= link_to image_tag("kitten.jpg", alt: "Rails logo"),
+            'http://rubyonrails.org' %>
